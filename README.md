@@ -1,16 +1,19 @@
 # vue-admin
-Vue.js后台管理系统
+## Vue.js后台管理系统
 
-git clone git@github.com:golang-demo/vue-admin.git
-npm install 
-npm run dev
-配置：src/config/index.js
+###### git clone git@github.com:golang-demo/vue-admin.git
+###### npm install 
+###### npm run dev
+###### 配置：src/config/index.js
+```
 baseUrl: {
   dev: '/',
   pro: 'http://api.xxx.com/'
 },
-dev选项为本地开发环境
-本地开发需要修改：vue.config.js
+```
+###### dev选项为本地开发环境
+###### 本地开发需要修改：vue.config.js
+```
 devServer: {
     port: '8080', // 开发服务器运行端口号
     host: 'localhost', // 匹配本机IP地址(默认是0.0.0.0)
@@ -30,3 +33,4 @@ devServer: {
       }
     }
   },
+```
